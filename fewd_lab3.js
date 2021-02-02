@@ -42,8 +42,8 @@ myFunction();
 
 //question 14
 
-function isAnswerRight(answer) {
-  return (answer ? 'The answer is right' : 'The answeris wrong');
+ let isAnswerRight = function(answer) {
+  return (answer ? 'The answer is right' : 'The answer is wrong');
 }
 
 console.log(isAnswerRight(true));
